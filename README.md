@@ -1,16 +1,22 @@
 # song
 
-A new Flutter project.
+Song App
 
-## Getting Started
+## Proje Hakkında
 
-This project is a starting point for a Flutter application.
+iTunes API'si ile şarkı listeleme basit uygulamsı
 
-A few resources to get you started if this is your first Flutter project:
+- MVVM mimarisi kullanılmıştır
+- State Management olarak Provider kullanılmıştır
+- Provider Stacked paketi yardımı ile daha reactive kullanılmıştır
+- Çoklu dil desteği için easy_localization kullanılmıştır
+- Model yapısı için json serializable kullanılarak fromMap toMap auto generate yapılamktadır
+- Navigation bar için persistent nav bar kütüphanesinden yararlanılmıştır.
+- REST API sorguları için dio kütüphanesi kullanılmıştır. Genel bir network manager üzerinden tüm GET/POST/PUT gibi işlemler yapılabilmektedir.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Dosya Şeması
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    ├── core        # Ürün bağımsız temel kullanılacak yapılar
+    ├── feature     # Ürün feature'ları bulunur (home, detail, login etc..)
+    ├── product     # Ürün bazında kullanılacak yapılar (constants, service, provider etc...) 
+    ├── main.dart
