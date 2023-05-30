@@ -8,5 +8,10 @@
     },
     "dialog": {
         "removeDone" : "Silme Başarılı"
+    },
+    "card": {
+        "releaseDate" : "Yayınlanma Tarihi",
+        "price" : "Ücret",
+        "resultsFound" : "{count} adet sonuç bulundu"
     }
 }

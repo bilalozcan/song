@@ -30,3 +30,6 @@ Songs             |  Songs List
 Songs Grid            |  Songs Page
 :-------------------------:|:-------------------------:
 ![alt text](/screenshots/songs_grid.png "Song Grid") | ![alt text](/screenshots/songs_page.png "Song Page")
+
+### Song Detail
+![alt text](/screenshots/song_detail.png "Song Detail")

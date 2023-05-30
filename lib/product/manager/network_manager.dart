@@ -42,7 +42,7 @@ class NetworkManager {
 
       var response = await _dio.request(
         path,
-        // data: body,
+        data: body,
         queryParameters: queryParameters,
         options: Options(
           contentType: isFile ? 'multipart/form-data' : 'application/json',
@@ -71,7 +71,6 @@ class NetworkManager {
         );
       }
     } on DioError catch (dioError) {
-      print('asd');
       return _showError<T>(
         '$path ${requestType.name}',
         'Error: ${dioError.error} | Status Message: ${dioError.message}',

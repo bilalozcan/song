@@ -7,5 +7,10 @@
     },
     "dialog": {
         "removeDone" : "Remove Done"
+    },
+    "card": {
+        "releaseDate" : "Release Date",
+        "price" : "Price",
+        "resultsFound" : "{count} number of results found"
     }
 }
