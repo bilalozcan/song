@@ -1,18 +1,14 @@
-enum NavigationEnums {
-  init,
-  login,
-  base,
-}
+enum NavigationEnums { init, home, songDetail }
 
 extension NavigationConstantsValue on NavigationEnums {
   String get rawValue {
     switch (this) {
       case NavigationEnums.init:
         return '/init';
-      case NavigationEnums.login:
-        return '/login';
-      case NavigationEnums.base:
-        return '/base';
+      case NavigationEnums.home:
+        return '/home';
+      case NavigationEnums.songDetail:
+        return '/songDetail';
     }
   }
 
@@ -21,10 +17,10 @@ extension NavigationConstantsValue on NavigationEnums {
       case '/':
       case '/init':
         return NavigationEnums.init;
-      case '/login':
-        return NavigationEnums.login;
-      case '/base':
-        return NavigationEnums.base;
+      case '/home':
+        return NavigationEnums.home;
+      case '/songDetail':
+        return NavigationEnums.songDetail;
       default:
         throw Exception('$val not found in $this');
     }

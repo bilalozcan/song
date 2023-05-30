@@ -1,3 +1,11 @@
 {
-    "app_name": "Song"
+    "appName": "Song",
+    "button": {
+        "ok": "Okey",
+        "cancel" : "Cancel",
+        "done" : "Done"
+    },
+    "dialog": {
+        "removeDone" : "Remove Done"
+    }
 }

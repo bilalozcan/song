@@ -12,7 +12,7 @@ class ThemeManager with ChangeNotifier {
         getTheme(SharedManager.instance.getIntValue(SharedKeys.theme));
   }
 
-  ThemeType _currentTheme = ThemeType.dark;
+  ThemeType _currentTheme = ThemeType.light;
 
   ThemeType get themeEnums => _currentTheme;
   ThemeData get currentTheme => _currentTheme == ThemeType.dark
