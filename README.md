@@ -20,3 +20,13 @@ iTunes API'si ile şarkı listeleme basit uygulamsı
     ├── feature     # Ürün feature'ları bulunur (home, detail, login etc..)
     ├── product     # Ürün bazında kullanılacak yapılar (constants, service, provider etc...) 
     ├── main.dart
+
+## Uygulama Ekran Görüntüleri
+
+Songs             |  Songs List
+:-------------------------:|:-------------------------:
+![alt text](/screenshots/songs.png "Songs") | ![alt text](/screenshots/songs_list.png "Songs List")
+
+Songs Grid            |  Songs Page
+:-------------------------:|:-------------------------:
+![alt text](/screenshots/songs_grid.png "Song Grid") | ![alt text](/screenshots/songs_page.png "Song Page")
